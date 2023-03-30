@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form {
+    height: 97vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-color: #878878; 
+    background: linear-gradient(green, black);
+}
+
+form {
+    background-color: rgb(58, 82, 58);
+    display: grid;
+    padding: 10px 20px;
+    place-items: center;
+    text-align: center;
+    height: 90%;
+    width: 30%;
+    border-radius: 13px;
+    box-shadow: 10px 10px 20px 20px rgba(0, 0, 0, 0.2);
+}
+form:hover{
+    background-position: left bottom;
+    color:rgb(238, 229, 229);
+    border: none;
+    box-shadow: 0 0 20px rgb(53, 14, 128);
+}
+h1 {
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.span {
+    display: block;
+    height: 3px;
+    width: 100px;
+    content: " ";
+    background-color: black;
+}
+
+#email,
+#pass {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+#email:hover,
+#pass:hover {
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+#in {
+    position: relative;
+    right: 20px;
+    width: 100px;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: cursive;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: black;
+    color: wheat;
+}
+
+#up {
+    position: relative;
+    left: 20px;
+    width: 100px;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: cursive;
+    cursor: pointer;
+    background-color: black;
+    color: wheat;
+}
+
+#up:hover,
+#in:hover {
+    background-color: white;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
+p{
+    text-align: center;
+    background-color: wheat;
+}
+.capture #cup{
+    width: 70px;
+    height: 35px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.capture #check{
+    width: 230px;
+    height: 35px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.capture #check:hover, .capture #cup:hover{
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.2);
+}

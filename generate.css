@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #848a36b2
+}
+.all {
+    height: 85vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-color: #8c9148;
+}
+
+.container {
+    width: 65%;
+    height: 300px;
+    max-height: 400px;
+    background-color: rgba(255, 255, 255, 0.534);
+    border-radius: 13px;
+    color: rgb(58, 37, 37);
+    border: 10px solid rgba(219, 198, 198, 0.534);
+    box-shadow: 10px 10px 25px 15px #414235;
+}
+
+.container h1 {
+    font-size: 45px;
+    border-bottom: 5px solid #000;
+    color:rgb(68, 70, 48);
+    font-weight: bold;
+}
+
+.container button {
+    padding: 10px 20px;
+    margin-top: 10%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family:sans-serif;
+    background-color: #3c3d2f;
+    color:#fff;
+}
+
+.container button:hover {
+    box-shadow: 2px 2px 5px 5px rgb(59, 57, 57);
+    color: #fff;
+    background-color: #000;
+}
+
+.container .main p {
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-family:cursive;
+    font-size: 18px;
+}
+
+.container .main span {
+    color: rgb(255, 0, 157);
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 18px;
+}
+.nav{
+    background-color: turquoise;
+}
+.nav ul{
+    float: right;
+    display: flex;
+}
+.nav h1{
+    float: left;
+    font-family: monospace;
+    margin: 5px;
+    color: rgb(44, 42, 37);
+    
+}
+.nav ul li {
+    list-style-type: none;
+    padding: 5px;
+    margin: 10px;
+}
+.nav ul li a{
+    color: black;
+    border: 3px solid white;
+    padding: 5px;
+    border-radius: 50px;
+    background-color: whitesmoke;
+   text-decoration: none;
+}
+ 
+.nav ul li a:hover{
+    box-shadow: 2px 2px 5px 10px rgba(24, 22, 22, 0.534);
+} 
+
+
+.copy{
+    text-align: center;
+    margin-top: 18px;
+}
+#first{
+    position: absolute;
+    top: 39%;
+    color: blue;
+    font-size: 25px;
+    left: 20%;
+}
+#second{
+    position: absolute;
+    top: 40%;
+    font-size: 25px;
+    color: blue;
+    right: 20%;
+}

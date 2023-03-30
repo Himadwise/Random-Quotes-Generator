@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Get in touch</title>
+</head>
+<body>
+    <section class="contact">
+        <div class="container">
+            <div class="contactinfo">
+                <div class="box">
+                    <div class="icon"><i class="fas fa-map-marker-exclamation"></i></div>
+                    <div class="tex">
+                        <h3>Address</h3>
+                        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.290817904871!2d45.30143201409044!3d2.0395285595411603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3d584208a91e883f%3A0x33b3bacfb4cf94dd!2sJamhuriya%20University%20of%20Science%20%26%20Technology%20(JUST)!5e0!3m2!1sen!2sso!4v1641639961933!5m2!1sen!2sso" width="200" height="50" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fas fa-phone"></i></div>
+                    <div class="tex">
+                        <h3>Phone</h3>
+                        <p><a href="tel:+252619905901" style="text-decoration: none;">+252619905901</a></p>
+                        <p><a href="tel:+252621098162" style="text-decoration: none;">+252621098162</a></p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fal fa-envelope-open-text"></i></div>
+                    <div class="tex">
+                        <h3>Email</h3>
+                        <p><a href="mailto:himadwise@gmail.cm" style="text-decoration: none;">himadwise@just.edu.so</a></p>
+                        <p><a href="mailto:alcazaam1233@gmail.cm" style="text-decoration: none;">alcazaam@just.edu.so</a></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contactform">
+                <form >
+                    <div class="content">
+                        <h1>Contact us</h1>
+                        <span class="line"></span>
+                        <p>You can inform us whatever you want and have a get look to our junior developers, welcome</p>
+                    </div>
+                    <div class="inputbox">
+                        <span>*Full Name</span>
+                        <input type="text" name="name" required="required" id="name">
+                    </div>
+                    <div class="inputbox">
+                        <span>*Email</span>
+                        <input type="email" name="name" required="required" id="email">
+                    </div>
+                    <div class="inputbox">
+                        <span> *Type Your Massage</span>
+                        <textarea cols="80" rows="10" id="text"></textarea>
+                    </div>
+                    <div class="inputbox">
+                        <input type="button" value="Send" id="send">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <a href="generate.html" class="project">Our Project</i></a>
+    </section>
+    <script>
+        document.getElementById("send").addEventListener("click",()=>{
+            let name=document.getElementById("name").value
+            let email=document.getElementById("email").value
+            if(name!="" || email!="" ){
+                window.location="generate.html"
+            }else{
+                alert(" check what you have entered, you either forgotten a username or profile name")
+            }
+        })
+    </script>
+</body>
+</html>

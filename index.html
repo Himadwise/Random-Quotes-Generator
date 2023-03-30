@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Form</title>
+</head>
+
+<body>
+    <div class="form">
+        <form method="POST" enctype="text/plain">
+            <h1>LOGIN</h1>
+            <span class="spn">...............</span>
+            <input type="email" name="email" id="email" placeholder="User name">
+            <input type="password" name="pass" id="pass" placeholder="Password">
+            <div class="capture">
+                <input type="text" name="text" id="cup" readonly>
+                <input type="text" name="check" id="check">
+            </div>
+            <div id="btn">
+                <input type="button" value="Sing in" id="in" onclick="validate()">
+                <input type="button" value="Sign up" id="up">
+            </div>
+            <a href="form.html" class="anchar">forget password</a>
+        </form>
+    </div>
+    <p>All Right Is Reserved &copy; By Group D</p>
+    <script>
+        let randomGenerator = Math.floor(Math.random() * 9999) + 100
+        document.getElementById("cup").value = randomGenerator + "SO"
+        function validate() {
+            let email = document.getElementById("email").value
+            let pass = document.getElementById("pass").value
+            let capture = document.getElementById("cup").value
+            let check = document.getElementById("check").value
+            if (email == "himad" && pass == "himadwise" && check == capture) {
+                window.location = 'generate.html'
+            } else {
+                alert(" We can approve after being registered, so please Sign up ")
+            }
+        }
+        document.getElementById("up").addEventListener('click', function () {
+            window.location = 'form.html'
+        })
+
+    </script>
+</body>
+
+</html>

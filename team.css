@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    overflow:auto;
+    font-family: cursive;
+    background-color: rgb(167, 154, 138);
+}
+.anchar{
+    float: right;
+    margin:5px 30px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid black;
+    padding: 5px;
+    background-color: black;
+    border-radius: 5px;
+}
+.anchar:hover{
+    background-color: blanchedalmond;
+    color: black;
+}
+.team{
+    text-align: center;
+    font-size: 25px;
+    margin-left: 12%;
+    color: rgb(219, 206, 179);
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.line{
+    display: block;
+    color: black;
+    border-bottom: 5px dotted black;
+    width: 10%;
+    position: relative;
+    left: 40%;
+    margin: 2%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.social{
+    margin: 20px;
+    background-color:antiquewhite;
+    margin-top: 5%;
+    border-radius: 10px;
+    width: 300px;
+    height: 370px;
+    box-shadow: 3px 5px 10px 10px gray;
+}
+.social:hover{
+    box-shadow: 3px 2px 20px 10px rgb(218, 209, 209);
+    transition: 0.5ms;
+    background-color: rgb(51, 41, 28);
+    color: cyan;
+}
+.social img{
+    margin-top: 5%;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 5px dotted #fff;
+}
+.social h1{
+    font-size: 15px;
+    margin-top: 25px;
+}
+.lol{
+    border-bottom: 3px dotted #000;
+    display: block;
+    height: 5px;
+    width: 20%;
+    position: relative;
+    left: 40%;
+    margin-top: 5%;
+}
+.social p{
+    text-align: center;
+    margin-top: 15px;
+    margin: 3px;
+}
+.social ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.social ul li{
+    list-style-type: none;
+    align-content: center;
+}
+.social ul li a {
+    display: flex;
+    padding: 5px;
+    font-weight: bolder;
+    font-size: 25px;
+    flex-direction: row;
+    list-style-type: none;
+    text-decoration: none;
+}
+.social ul li a:hover{
+   box-shadow: 2px 3px 5px 5px rgb(223, 216, 216); 
+   border-radius: 50%;
+}
+
+
+
+
+.copy{
+text-align: center;
+background-color: wheat;
+margin-top: 4%;
+}
+

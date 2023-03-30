@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(26, 19, 19, 0.7) url(people.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+}
+.all{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    position: relative;
+    margin-top: 20px;
+}
+.social{
+    margin-top: 15%;
+}
+.social h1{
+    font-size: 30px;
+    color: wheat;
+    text-align: center;
+}
+.social p{
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 20px;
+    font-family: cursive;
+}
+.social ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.social ul li{
+    list-style-type: none;
+    padding: 5px;
+}
+.social ul li a{
+    text-decoration:none;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.social ul li a:hover{
+    color: red;
+}
+.regis{
+    background-color: whitesmoke;
+    width:550px;
+    height: 580px;
+    border-radius: 5px;
+}
+.title{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.title p{
+    margin-top: 5px;
+    text-indent: 5%;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.line{
+    border-bottom: 3px solid rgb(224, 216, 216);
+    display: block;
+    margin-top: 5px;
+
+}
+.regis form{
+     padding: 40px;
+     margin-left: 10px;
+}
+form{
+    display: grid;
+    justify-content: center;
+}
+input{
+   margin: 5px;
+   padding:15px;
+   width: 400px;
+   margin-top: 20px;
+   font-size: 15px;
+   background-color: rgba(245, 237, 237, 0.726);
+   border: none;
+   box-shadow: 3px 5px 5px 3px black;
+}
+#signup{
+    width: 100px;
+    color: whitesmoke;
+    background-color: brown;
+    border-radius: 10px;
+}
+#signup:hover{
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+    box-shadow: 3px 5px 10px 5px rgb(48, 33, 63);
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    font-style: oblique;
+    color: black;
+    font-weight: bolder;
+}
